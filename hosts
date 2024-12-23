@@ -1,2 +1,3 @@
 [wordpress]
-wordpress-server ansible_host=<wordpress_server_ip> ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/your-key.pem
+18.141.200.42 ansible_user=ec2-user ansible_ssh_private_key_file=~/.ssh/wordpresskeypair.pem
+
