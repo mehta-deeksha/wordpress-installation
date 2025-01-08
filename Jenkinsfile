@@ -7,7 +7,7 @@ pipeline {
                 // Checkout the repository containing your Ansible files
                 git branch: 'main',
                     url: 'https://github.com/mehta-deeksha/wordpress-installation.git',
-                    credentialsId: 'repo-password' // Replace with your Jenkins credentials ID
+                    credentialsId: 'repo-password' // Replace with the Jenkins credentials ID
             }
         }
 
